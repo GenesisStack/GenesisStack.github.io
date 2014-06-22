@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Genesis Stack
+tagline:          ''
+description:      ''
+url:              http://genesisstack.github.io/
+baseurl:          http://genesisstack.github.io/
+paginate:         5
+
+author:
+  name:           'Dale Hamel'
+  url:            https://github.com/dalehamel
+
+# Custom vars
+version:          0.0.1
+
