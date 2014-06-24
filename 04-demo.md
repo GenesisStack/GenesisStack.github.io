@@ -23,7 +23,11 @@ Vagrant files:
 + [collins/alchemy transmuter](https://gist.githubusercontent.com/dalehamel/a33daefdd7e842f33e51/raw/106b2860184a7c5965ac2ac165ed8ec6a6002462/gistfile1.txt)
 + [alchemy linux](https://gist.githubusercontent.com/dalehamel/4ee424fbeaf929731ded/raw/80fb7050d6ce450f8e88829a18ffbece09ce00ad/gistfile1.txt)
 
-**Note:** If you're attempting to use these Vagrant files at Velocity, substitute "config.vm.box\_url" with the path to the box on the file server, or else it will try to download it externally.
+**Note:** If you've already downloaded the vagrant boxes, add them to vagrant to prevent re-downloading:
+
+```
+vagrant box add {boxname}
+```
 
 # Sample usage
 
